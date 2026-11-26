@@ -3,9 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="An independent, local macOS watchdog for Microsoft OneDrive. Explore automatic recovery, notifications and incident history, and help shape a potential free beta.">
+  <meta name="description" content="Independent macOS menu-bar utility monitoring whether OneDrive processes are running. Learn about OneDrive Keeper's local-first prototype and planned user survey.">
   <meta name="color-scheme" content="light dark">
-  <title>Cloud sync watchdog for Mac | OneDrive compatibility</title>
+  <meta name="theme-color" content="#f4f6fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111824" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://barcuchj.github.io/OneDriveKeeper-Web/">
+  <link rel="icon" type="image/svg+xml" href="https://barcuchj.github.io/OneDriveKeeper-Web/favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="OneDrive Keeper">
+  <meta property="og:title" content="OneDrive Keeper — Independent OneDrive Process Monitor">
+  <meta property="og:description" content="A local-first macOS menu-bar utility that monitors whether OneDrive processes are running. Process availability does not verify file synchronization.">
+  <meta property="og:url" content="https://barcuchj.github.io/OneDriveKeeper-Web/">
+  <meta property="og:image" content="https://barcuchj.github.io/OneDriveKeeper-Web/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="OneDrive Keeper, an independent local-first process monitor for OneDrive on macOS">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OneDrive Keeper — Independent OneDrive Process Monitor">
+  <meta name="twitter:description" content="A local-first macOS menu-bar utility that monitors whether OneDrive processes are running. Process availability does not verify file synchronization.">
+  <meta name="twitter:image" content="https://barcuchj.github.io/OneDriveKeeper-Web/og-image.png">
+  <meta name="twitter:image:alt" content="OneDrive Keeper, an independent local-first process monitor for OneDrive on macOS">
+  <title>OneDrive Keeper — Independent OneDrive Process Monitor for macOS</title>
   <style>
     :root{color-scheme:light dark;--bg:#f4f6fb;--paper:#fff;--ink:#17243a;--muted:#526278;--line:#dce4ef;--accent:#175ac4;--accentText:#fff;--good:#16714e;--warn:#8b5511;--shadow:0 20px 60px #17243a12}
     @media(prefers-color-scheme:dark){:root{--bg:#111824;--paper:#192333;--ink:#edf3ff;--muted:#afbdd1;--line:#344258;--accent:#83b4ff;--accentText:#101d31;--good:#79d7ad;--warn:#f2c37b;--shadow:0 20px 60px #0004}}
@@ -30,7 +49,7 @@
         <p class="eyebrow">Independent macOS utility · Beta research</p>
         <h1 id="headline">Keep OneDrive running on your Mac.</h1>
         <p class="lead">If your OneDrive client stops unexpectedly, you should know. This small, native menu-bar utility monitors the client, notifies you and can automatically bring it back.</p>
-        <a class="cta" href="#survey">Help shape the free beta</a>
+        <a class="cta" href="#survey">See survey status</a>
         <p class="small">Working private prototype · macOS 14+ target · No public download yet</p>
       </div>
       <figure class="preview">
@@ -71,8 +90,8 @@
           <p class="eyebrow">Research · About two minutes</p>
           <h2 id="survey-title">Does OneDrive stop running on your Mac?</h2>
           <p>We want to learn whether other Mac users experience similar problems and whether a free public beta would be useful.</p>
-          <!-- Replace the status paragraph below with a link to the verified, published survey when available. Do not claim that responses are being collected before testing submission. -->
-          <p class="survey-state">The survey is being prepared. Responses are not being collected yet.</p>
+          <p class="survey-state" role="status">The survey is not open yet. Responses are not being collected.</p>
+          <p class="small">When available, taking part will be voluntary and take about two minutes. The form will not ask for or collect email addresses. Planned privacy: responses will be kept in restricted Google Forms and Sheets, used for aggregate research, and deleted no later than 12 months after the survey closes. Google may process technical information under its <a href="https://policies.google.com/privacy">privacy policy</a>.</p>
           <p class="small">A public beta has not been released. No payment, email signup or download is offered on this page.</p>
         </div>
         <div>

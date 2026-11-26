@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barcuchj.github.io/OneDriveKeeper-Web/sitemap.xml
